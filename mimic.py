@@ -61,7 +61,7 @@ def mimic_dict(filename):
         if pre_word in d:
             d[pre_word].append(word)
         else:
-            d[pre_word] = list(word)
+            d[pre_word] = [word]
         
         pre_word = word
 
